@@ -1,3 +1,0 @@
-apply plugin: 'maven'
-
-group = 'com.github.SM-Net-Application'
