@@ -2,3 +2,15 @@ plugins {
     id 'java-library'
     id 'maven-publish'
 }
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'com.smnet'
+            artifactId = 'smnet-utils'
+            version = '0.0.6'
+
+            from components.java
+        }
+    }
+}
